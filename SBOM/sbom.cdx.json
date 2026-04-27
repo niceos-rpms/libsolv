@@ -1,0 +1,118 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/openSUSE/libsolv"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "libsolv",
+      "properties": [
+        {
+          "name": "niceos:package_dir",
+          "value": "libsolv"
+        },
+        {
+          "name": "niceos:evr",
+          "value": "0.7.35-1"
+        },
+        {
+          "name": "niceos:spec_sha256",
+          "value": "b1cb4e1b10a656b9c33a880ebb0d531e69ab0bcfce48ffd7a2432833f858a51b"
+        },
+        {
+          "name": "niceos:lock_sha256",
+          "value": "6c2c0284e182f81dd352d56477d5cfbb972dcf663b77ce0990822eca5bf0339f"
+        }
+      ],
+      "purl": "pkg:rpm/libsolv@0.7.35-1",
+      "type": "library",
+      "version": "0.7.35-1"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e6ef552846f908beb3bbf6ca718b6dd431bd8a281086d82af9a6d2a3ba919be5"
+        }
+      ],
+      "name": "libsolv-0.7.35.tar.gz",
+      "properties": [
+        {
+          "name": "niceos:source_kind",
+          "value": "Source"
+        },
+        {
+          "name": "niceos:source_index",
+          "value": "0"
+        },
+        {
+          "name": "niceos:source_token",
+          "value": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.35.tar.gz#libsolv-0.7.35.tar.gz"
+        },
+        {
+          "name": "niceos:pool_path",
+          "value": "libsolv-0.7.35.tar.gz"
+        }
+      ],
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/openSUSE/libsolv"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "name": "libsolv",
+      "properties": [
+        {
+          "name": "niceos:package_dir",
+          "value": "libsolv"
+        },
+        {
+          "name": "niceos:evr",
+          "value": "0.7.35-1"
+        },
+        {
+          "name": "niceos:spec_sha256",
+          "value": "b1cb4e1b10a656b9c33a880ebb0d531e69ab0bcfce48ffd7a2432833f858a51b"
+        },
+        {
+          "name": "niceos:lock_sha256",
+          "value": "6c2c0284e182f81dd352d56477d5cfbb972dcf663b77ce0990822eca5bf0339f"
+        }
+      ],
+      "purl": "pkg:rpm/libsolv@0.7.35-1",
+      "type": "library",
+      "version": "0.7.35-1"
+    },
+    "tools": [
+      {
+        "name": "mkcore.py",
+        "vendor": "NiceSOFT",
+        "version": "4.0"
+      }
+    ]
+  },
+  "specVersion": "1.4",
+  "version": 1
+}

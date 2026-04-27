@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "patches": 0,
+    "sources": 1,
+    "total": 1
+  },
+  "items": [
+    {
+      "dst_name": "libsolv-0.7.35.tar.gz",
+      "gost12": "b892f90a669b932d73b5504192fd056e87ba01bbedec79786faff70eccb03bad",
+      "index": 0,
+      "kind": "Source",
+      "pool_path": "libsolv-0.7.35.tar.gz",
+      "remote_url": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.35.tar.gz#libsolv-0.7.35.tar.gz",
+      "sha256": "e6ef552846f908beb3bbf6ca718b6dd431bd8a281086d82af9a6d2a3ba919be5",
+      "size": 775526,
+      "token": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.35.tar.gz#libsolv-0.7.35.tar.gz",
+      "wanted": "libsolv-0.7.35.tar.gz"
+    }
+  ],
+  "lock_format": 2,
+  "package": {
+    "dir": "libsolv",
+    "dir_policy": "spec-basename",
+    "epoch": null,
+    "evr": "0.7.35-1",
+    "name": "libsolv",
+    "release": "1",
+    "version": "0.7.35"
+  },
+  "rpmspec_context": {
+    "defines": [],
+    "with": [],
+    "without": []
+  },
+  "spec": {
+    "file": "libsolv.spec",
+    "gost12": "7a46f8c5332261c368958a98fa5fe7b21678d569ae4223a9218a9c93562800c5",
+    "preprocessed_sha256": "4fdb72d358821fa51c96b717de5fe2e1a8d1307434f07cc4b7b5a1ac8bbc9744",
+    "sha256": "b1cb4e1b10a656b9c33a880ebb0d531e69ab0bcfce48ffd7a2432833f858a51b"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "actions": [],
+  "diff": {
+    "package": "libsolv",
+    "package_fields": {
+      "epoch": {
+        "changed": false,
+        "new": null,
+        "old": null
+      },
+      "evr": {
+        "changed": false,
+        "new": "0.7.35-1",
+        "old": "0.7.35-1"
+      },
+      "name": {
+        "changed": false,
+        "new": "libsolv",
+        "old": "libsolv"
+      },
+      "release": {
+        "changed": false,
+        "new": "1",
+        "old": "1"
+      },
+      "version": {
+        "changed": false,
+        "new": "0.7.35",
+        "old": "0.7.35"
+      }
+    },
+    "sources": {
+      "added": [],
+      "changed_same_name": [],
+      "kind_or_index_changed": [],
+      "new_total": 1,
+      "old_total": 1,
+      "removed": [],
+      "unchanged": [
+        "libsolv-0.7.35.tar.gz"
+      ]
+    },
+    "spec": {
+      "changed_vs_dst": false,
+      "changed_vs_lock": false,
+      "dst_sha256": "b1cb4e1b10a656b9c33a880ebb0d531e69ab0bcfce48ffd7a2432833f858a51b",
+      "exists_in_core": true,
+      "new_sha256": "b1cb4e1b10a656b9c33a880ebb0d531e69ab0bcfce48ffd7a2432833f858a51b",
+      "old_lock_sha256": "b1cb4e1b10a656b9c33a880ebb0d531e69ab0bcfce48ffd7a2432833f858a51b"
+    },
+    "spec_file": "libsolv.spec",
+    "status": "existing"
+  },
+  "dry_run": false,
+  "generator": {
+    "name": "mkcore.py",
+    "vendor": "NiceSOFT",
+    "version": "4.0"
+  },
+  "mode": "update",
+  "package": "libsolv",
+  "run_id": "20260427T175349Z"
+}
