@@ -1,7 +1,7 @@
 %define __cmake_switch(b:) %[%{expand:%%{?with_%{-b*}}} ? "ON" : "OFF"]
 
 Name:           libsolv
-Version:        0.7.35
+Version:        0.7.37
 Release:        1%{?dist}
 Summary:        libsolv - a library for resolving package dependencies
 Summary(ru):    libsolv — библиотека для разрешения зависимостей пакетов
@@ -23,6 +23,14 @@ Requires:       zlib
 BuildRequires:  cmake
 BuildRequires:  expat-devel
 BuildRequires:  zlib-devel
+BuildRequires:  bzip2-devel
+BuildRequires:  xz-devel
+BuildRequires:  zstd-devel
+BuildRequires:  zchunk-devel
+BuildRequires:  rpm-devel
+BuildRequires:  python3-devel
+BuildRequires:  openssl-devel
+BuildRequires:  swig
 
 Provides:       libsolv-tools = %{version}-%{release}
 Provides:       python3-solv = %{version}-%{release}
@@ -84,7 +92,7 @@ symlinks required to build applications that use libsolv.
 %{cmake_install}
 
 %check
-%{cmake_build} test
+%ctest
 
 %post -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
@@ -107,5 +115,18 @@ symlinks required to build applications that use libsolv.
 %{_mandir}/man3/*
 
 %changelog
+* Sat May 09 2026 NiceOS Team <support@niceos.ru> - 0.7.37-1
+- EN: Sat May 09 2026 NiceOS Team <niceos@ncsgp.ru> - 0.7.37-1
+- Update to upstream 0.7.37:
+- fix parsing of SHA-512 checksums in Debian repositories
+- improve dirpool_add_dir performance, making filelists.xml parsing faster
+- fix parsing of recommends in the old Mandriva synthesis format
+- RU: Сб 09 мая 2026 NiceOS Team <niceos@ncsgp.ru> - 0.7.37-1
+- Обновление до upstream 0.7.37:
+- исправлен разбор SHA-512 checksums в Debian repositories
+- ускорен dirpool_add_dir, что делает parsing filelists.xml быстрее
+- исправлен разбор recommends в старом Mandriva synthesis format
+
+
 * Fri Jan 09 2026 NiceOS Team <niceos@ncsgp.ru> - 0.7.35-1
 - Initial build for NiceOS (Первая сборка для НАЙС.ОС)
