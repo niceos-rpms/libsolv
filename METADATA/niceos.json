@@ -13,20 +13,28 @@
   ],
   "dependencies_from_spec": {
     "BuildRequires": [
+      "bzip2-devel",
       "cmake",
       "expat-devel",
-      "zlib-devel"
+      "openssl-devel",
+      "python3-devel",
+      "rpm-devel",
+      "swig",
+      "xz-devel",
+      "zchunk-devel",
+      "zlib-devel",
+      "zstd-devel"
     ],
     "Provides": [
-      "libsolv-tools = 0.7.35-1",
+      "libsolv-tools = 0.7.37-1",
       "pkgconfig(libsolv)",
       "pkgconfig(libsolvext)",
-      "python3-solv = 0.7.35-1"
+      "python3-solv = 0.7.37-1"
     ],
     "Requires": [
       "expat-devel",
       "expat-libs",
-      "libsolv = 0.7.35-1",
+      "libsolv = 0.7.37-1",
       "rpm-libs >= 4.19.1.1",
       "zlib"
     ]
@@ -37,7 +45,7 @@
     "version": "4.0"
   },
   "identifiers": {
-    "purl_rpm": "pkg:rpm/libsolv@0.7.35-1"
+    "purl_rpm": "pkg:rpm/libsolv@0.7.37-1"
   },
   "language_ecosystems": {
     "pypi": {
@@ -47,13 +55,13 @@
     }
   },
   "last_diff_summary": {
-    "has_changes": false,
-    "sources_added": 0,
+    "has_changes": true,
+    "sources_added": 1,
     "sources_changed_same_name": 0,
-    "sources_removed": 0,
-    "spec_changed": false
+    "sources_removed": 1,
+    "spec_changed": true
   },
-  "lock_sha256": "6c2c0284e182f81dd352d56477d5cfbb972dcf663b77ce0990822eca5bf0339f",
+  "lock_sha256": "d3b150b42d2e6f3872aa4b85e021972a78d3deda776033f31b74117ab741bf09",
   "metadata_format": 2,
   "package_dir": "libsolv",
   "package_dir_policy": "spec-basename",
@@ -75,16 +83,16 @@
   "sources": {
     "items": [
       {
-        "dst_name": "libsolv-0.7.35.tar.gz",
-        "gost12": "b892f90a669b932d73b5504192fd056e87ba01bbedec79786faff70eccb03bad",
+        "dst_name": "libsolv-0.7.37.tar.gz",
+        "gost12": "d3b902c8298e98a0266fa814d3eafc4bc5a4a30bfa0d5a414284effd14e625e3",
         "index": 0,
         "kind": "Source",
-        "pool_path": "libsolv-0.7.35.tar.gz",
-        "remote_url": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.35.tar.gz#libsolv-0.7.35.tar.gz",
-        "sha256": "e6ef552846f908beb3bbf6ca718b6dd431bd8a281086d82af9a6d2a3ba919be5",
-        "size": 775526,
-        "token": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.35.tar.gz#libsolv-0.7.35.tar.gz",
-        "wanted": "libsolv-0.7.35.tar.gz"
+        "pool_path": "libsolv-0.7.37.tar.gz",
+        "remote_url": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.37.tar.gz#libsolv-0.7.37.tar.gz",
+        "sha256": "ad6a38624dde26fc59c41427608536c443b76f90dcb6bb96c2e70b8e3ee20419",
+        "size": 778274,
+        "token": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.37.tar.gz#libsolv-0.7.37.tar.gz",
+        "wanted": "libsolv-0.7.37.tar.gz"
       }
     ],
     "patches_total": 0,
@@ -93,16 +101,16 @@
   },
   "spec": {
     "epoch": null,
-    "evr": "0.7.35-1",
-    "gost12": "7a46f8c5332261c368958a98fa5fe7b21678d569ae4223a9218a9c93562800c5",
+    "evr": "0.7.37-1",
+    "gost12": "e04d309b9a4c0afca0b9510215833dcfaf0f73f07f311fa654e92305cef73b98",
     "license": "BSD-3-Clause",
     "name_tag": "libsolv",
-    "preprocessed_sha256": "4fdb72d358821fa51c96b717de5fe2e1a8d1307434f07cc4b7b5a1ac8bbc9744",
+    "preprocessed_sha256": "c668f50a5bbe4d2dac6acbb22d1e59a8d163a27a7c86a59188082c1e574d62f7",
     "release": "1",
-    "sha256": "b1cb4e1b10a656b9c33a880ebb0d531e69ab0bcfce48ffd7a2432833f858a51b",
+    "sha256": "5891873c406d01be9d37bd635a4321d8ae8887947483c0dd7794d36d632f97f9",
     "summary": "libsolv - a library for resolving package dependencies",
     "url": "https://github.com/openSUSE/libsolv",
-    "version": "0.7.35"
+    "version": "0.7.37"
   },
   "upstream_hints": {
     "github": [
