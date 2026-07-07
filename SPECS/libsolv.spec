@@ -1,7 +1,7 @@
 %define __cmake_switch(b:) %[%{expand:%%{?with_%{-b*}}} ? "ON" : "OFF"]
 
 Name:           libsolv
-Version:        0.7.37
+Version:        0.7.39
 Release:        1%{?dist}
 Summary:        libsolv - a library for resolving package dependencies
 Summary(ru):    libsolv — библиотека для разрешения зависимостей пакетов
@@ -115,6 +115,11 @@ symlinks required to build applications that use libsolv.
 %{_mandir}/man3/*
 
 %changelog
+* Tue Jul 07 2026 NiceOS Team <support@niceos.ru> - 0.7.39-1
+- EN: Update to upstream version 0.7.39.
+- RU: Обновление до upstream-версии 0.7.39.
+
+
 * Sat May 09 2026 NiceOS Team <support@niceos.ru> - 0.7.37-1
 - EN: Sat May 09 2026 NiceOS Team <niceos@ncsgp.ru> - 0.7.37-1
 - Update to upstream 0.7.37:
