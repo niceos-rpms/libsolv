@@ -23,29 +23,29 @@
         },
         {
           "name": "niceos:evr",
-          "value": "0.7.37-1"
+          "value": "0.7.39-1"
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "5891873c406d01be9d37bd635a4321d8ae8887947483c0dd7794d36d632f97f9"
+          "value": "059c72fb9665f05acac2c63d63495fd00e325dc8130b3887e71f52113035c5ff"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "d3b150b42d2e6f3872aa4b85e021972a78d3deda776033f31b74117ab741bf09"
+          "value": "91ea293ec6ffa261b3b63d68e11bb758e843c1a90d3b6f7eccd80149224d362a"
         }
       ],
-      "purl": "pkg:rpm/libsolv@0.7.37-1",
+      "purl": "pkg:rpm/libsolv@0.7.39-1",
       "type": "library",
-      "version": "0.7.37-1"
+      "version": "0.7.39-1"
     },
     {
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "ad6a38624dde26fc59c41427608536c443b76f90dcb6bb96c2e70b8e3ee20419"
+          "content": "2a74cbf1e49984cb01f75ac4b19a237f24de6ce199766858aeb9ab3aae2b95fa"
         }
       ],
-      "name": "libsolv-0.7.37.tar.gz",
+      "name": "libsolv-0.7.39.tar.gz",
       "properties": [
         {
           "name": "niceos:source_kind",
@@ -57,11 +57,11 @@
         },
         {
           "name": "niceos:source_token",
-          "value": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.37.tar.gz#libsolv-0.7.37.tar.gz"
+          "value": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.39.tar.gz#libsolv-0.7.39.tar.gz"
         },
         {
           "name": "niceos:pool_path",
-          "value": "libsolv-0.7.37.tar.gz"
+          "value": "libsolv-0.7.39.tar.gz"
         }
       ],
       "type": "file"
@@ -90,20 +90,20 @@
         },
         {
           "name": "niceos:evr",
-          "value": "0.7.37-1"
+          "value": "0.7.39-1"
         },
         {
           "name": "niceos:spec_sha256",
-          "value": "5891873c406d01be9d37bd635a4321d8ae8887947483c0dd7794d36d632f97f9"
+          "value": "059c72fb9665f05acac2c63d63495fd00e325dc8130b3887e71f52113035c5ff"
         },
         {
           "name": "niceos:lock_sha256",
-          "value": "d3b150b42d2e6f3872aa4b85e021972a78d3deda776033f31b74117ab741bf09"
+          "value": "91ea293ec6ffa261b3b63d68e11bb758e843c1a90d3b6f7eccd80149224d362a"
         }
       ],
-      "purl": "pkg:rpm/libsolv@0.7.37-1",
+      "purl": "pkg:rpm/libsolv@0.7.39-1",
       "type": "library",
-      "version": "0.7.37-1"
+      "version": "0.7.39-1"
     },
     "tools": [
       {

@@ -6,16 +6,16 @@
   },
   "items": [
     {
-      "dst_name": "libsolv-0.7.37.tar.gz",
-      "gost12": "d3b902c8298e98a0266fa814d3eafc4bc5a4a30bfa0d5a414284effd14e625e3",
+      "dst_name": "libsolv-0.7.39.tar.gz",
+      "gost12": "f43fc337422c0f4c43c79a76e8f3d1cda27e581a5ec7cc5f32891ee10a558678",
       "index": 0,
       "kind": "Source",
-      "pool_path": "libsolv-0.7.37.tar.gz",
-      "remote_url": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.37.tar.gz#libsolv-0.7.37.tar.gz",
-      "sha256": "ad6a38624dde26fc59c41427608536c443b76f90dcb6bb96c2e70b8e3ee20419",
-      "size": 778274,
-      "token": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.37.tar.gz#libsolv-0.7.37.tar.gz",
-      "wanted": "libsolv-0.7.37.tar.gz"
+      "pool_path": "libsolv-0.7.39.tar.gz",
+      "remote_url": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.39.tar.gz#libsolv-0.7.39.tar.gz",
+      "sha256": "2a74cbf1e49984cb01f75ac4b19a237f24de6ce199766858aeb9ab3aae2b95fa",
+      "size": 781598,
+      "token": "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.39.tar.gz#libsolv-0.7.39.tar.gz",
+      "wanted": "libsolv-0.7.39.tar.gz"
     }
   ],
   "lock_format": 2,
@@ -26,7 +26,7 @@
     "evr": "0.7.39-1",
     "name": "libsolv",
     "release": "1",
-    "version": "0.7.37"
+    "version": "0.7.39"
   },
   "rpmspec_context": {
     "defines": [],
@@ -35,8 +35,8 @@
   },
   "spec": {
     "file": "libsolv.spec",
-    "gost12": "e04d309b9a4c0afca0b9510215833dcfaf0f73f07f311fa654e92305cef73b98",
-    "preprocessed_sha256": "c668f50a5bbe4d2dac6acbb22d1e59a8d163a27a7c86a59188082c1e574d62f7",
-    "sha256": "5891873c406d01be9d37bd635a4321d8ae8887947483c0dd7794d36d632f97f9"
+    "gost12": "a9d2eb9e391e177e6df7db6d78d6325b3b1651d3bd0a79a01eb3cfe20a704d2d",
+    "preprocessed_sha256": "b2e76f29e8f2e8b98899a16a7869b4cac2db53ddeab95eb358851836435c5ab8",
+    "sha256": "059c72fb9665f05acac2c63d63495fd00e325dc8130b3887e71f52113035c5ff"
   }
 }
