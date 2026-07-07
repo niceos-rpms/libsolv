@@ -23,7 +23,7 @@
     "dir": "libsolv",
     "dir_policy": "spec-basename",
     "epoch": null,
-    "evr": "0.7.37-1",
+    "evr": "0.7.39-1",
     "name": "libsolv",
     "release": "1",
     "version": "0.7.37"
